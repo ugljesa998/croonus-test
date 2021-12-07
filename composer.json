@@ -1,0 +1,25 @@
+{
+    "name": "croonus/eccomerce",
+    "description": "Test application for ecommerce",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Uglješa Živaljević",
+            "email": "ugljesa.zivaljevic@croonus.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Croonus\\Ecommerce\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Croonus\\Ecommerce\\EcommerceServiceProvider"
+            ]
+        }
+    }
+}
