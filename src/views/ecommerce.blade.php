@@ -8,6 +8,7 @@
 </head>
 <body>
     <h1>Croonus Ecommerce Application!</h1>
+    <h2>TEST APPLICATION!</h2>
 
     <ul>
         @foreach ($ecdata as $item)
